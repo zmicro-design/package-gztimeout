@@ -13,7 +13,7 @@ install() {
   local name="gztimeout"
   # files
   local tmp_file="$name.tar.gz"
-  local bin_file="./${name}-${PACKAGE_CORE_VERSION#v}-${platform}-${arch}/$name"
+  local bin_file="./$name"
 
   # prepare context
   cd $tmp_dir
